@@ -37,7 +37,7 @@ def make_card(coin):
                html.Div(
                     [f"{round(change, 2)}%",
                      html.I(className='currency_icon')],
-                     className=f"text-{color}", style={}
+                     className=f"text-{color} arrow-style"
                ),
             ],
             className="app_box",
